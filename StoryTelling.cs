@@ -40,7 +40,7 @@ namespace DnD_NoobCoders
             }
             text.Append(enemiesList);
             text.Append('.');
-            var oldCursorPosition = StoryDrawer.SaveAndMoveCursorTo(0, 28);
+            var oldCursorPosition = StoryDrawer.SaveAndMoveCursorTo(0, StoryDrawer.LinesInImage+StoryDrawer.HeroesAtLine+2);
             Console.WriteLine(text.ToString());
             if (heroes.Count > 1) Console.WriteLine($"{heroesList.ToString()} engaged the {enemiesList.ToString()}.");
             Console.SetCursorPosition(oldCursorPosition.Left, oldCursorPosition.Top);

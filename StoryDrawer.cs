@@ -12,10 +12,11 @@ namespace DnD_NoobCoders
         private const int FrameDelay = 150;
         private const int TypingDelay = 3;
         private const int LeftSpacer = 5;
-        private const int LinesInImage = 10;
+        internal const int LinesInImage = 10;
         private const int ImageWidth = 33;
-        private const int HeroesAtLine = 16;
+        internal const int HeroesAtLine = 18;
         private const int EnemiesAtLine = 2;
+
 
         internal static void ShiftCursor(int x)
         {

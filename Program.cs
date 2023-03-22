@@ -54,7 +54,7 @@ namespace DnD_NoobCoders
             {
                 StoryDrawer.DrawTeam(myHeroes, true);
                 StoryDrawer.DrawTeam(enemies, false);
-                var oldCursorPosition = StoryDrawer.SaveAndMoveCursorTo(0, 28);
+                var oldCursorPosition = StoryDrawer.SaveAndMoveCursorTo(0, StoryDrawer.LinesInImage + StoryDrawer.HeroesAtLine + 2);
                 bool enemiesIsDefeated = MakeTurn(myHeroes, enemies, true);
                 bool heroesIsDefeated = MakeTurn(enemies, myHeroes, false);
 
