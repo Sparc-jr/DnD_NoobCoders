@@ -1,4 +1,6 @@
-﻿namespace DnD_NoobCoders
+﻿using DnD_NoobCoders;
+
+namespace DnD_NoobCoders
 {
     internal class ChainLightning : Spell
     {
